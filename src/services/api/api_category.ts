@@ -1,8 +1,5 @@
 import AxiosResponse from "axios";
 import { TProductType, TProduct, TCart } from "../../types";
-import { ProvideToken } from "../../token/token";
-
-const token = ProvideToken();
 
 export const getCategories = async() => {
     try {
